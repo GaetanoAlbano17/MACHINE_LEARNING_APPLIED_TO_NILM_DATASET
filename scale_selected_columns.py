@@ -1,12 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 @author: 
-    
-Orlando Maerini
-Simona Bevilacqua
 Gaetano Albano
-Ginevra Biagini
-    
 """
 
 from sklearn.preprocessing import MaxAbsScaler  # Importa la funzione MaxAbsScaler da sklearn.preprocessing

@@ -1,12 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-@author: 
-    
-Orlando Maerini
-Simona Bevilacqua
+@author:
 Gaetano Albano
-Ginevra Biagini
-    
 """
 
 import pandas as pd  

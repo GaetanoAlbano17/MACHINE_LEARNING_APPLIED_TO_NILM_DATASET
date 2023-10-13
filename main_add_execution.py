@@ -1,12 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 @author: 
-    
-Orlando Maerini
-Simona Bevilacqua
 Gaetano Albano
-Ginevra Biagini
-    
 """
 import argparse
 # Import dei moduli personalizzati
