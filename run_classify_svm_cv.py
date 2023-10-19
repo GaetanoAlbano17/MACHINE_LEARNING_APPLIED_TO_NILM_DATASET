@@ -61,8 +61,6 @@ def train_and_evaluate_svm(df, best_params):
     with open('svm_model.pkl', 'wb') as f:
         pickle.dump(svm_classifier, f)
     # Calcola il classification report
-    
-    # Calcola il classification report
     class_report = classification_report(y, y_pred, target_names=[device_mapping[class_name] for class_name in df['Device'].unique()], output_dict=True)
     print(f"Classification Report:\n{class_report}")
 
