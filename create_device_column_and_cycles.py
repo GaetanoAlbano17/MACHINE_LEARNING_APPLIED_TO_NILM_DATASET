@@ -25,10 +25,10 @@ def create_device_column_and_cycles(data):
     # Conta il numero totale di elementi 'altro'
     altro_count = (df['Device'] == 'altro').sum()
 
-    # Mantenimento di 10000 elementi 'altro' corrispettivo di 600000 campioni al senco
+    # Mantenimento di 10000 elementi 'altro' corrispettivo di 600000 campioni al secondo
     # Verifica se il conteggio di 'altro' è maggiore di 10000
     if altro_count > 10000:
-    # Seleziona gli indici degli elementi 'altro' che non sono tra i primi 1500
+    # Seleziona gli indici degli elementi 'altro' che non sono tra i primi 10000
         indices_to_remove = df.index[df['Device'] == 'altro'][10000:]
     
     # Elimina gli elementi 'altro' che non sono tra i primi 10000
